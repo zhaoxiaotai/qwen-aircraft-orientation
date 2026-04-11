@@ -1,0 +1,46 @@
+# 虚拟环境
+qwen3_vl/
+venv/
+ENV/
+env/
+
+# 模型文件（大体积）
+models/
+*.pth
+*.bin
+*.safetensors
+*.pt
+*.h5
+
+# 数据集
+mq_9b/
+data/
+images/
+labels/
+*.jpg
+*.png
+*.jpeg
+
+# 训练输出（如果训练脚本输出在本地）
+output/
+checkpoints/
+*.log
+
+# Gradio 临时文件
+.gradio/
+flagged/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.dbloras/

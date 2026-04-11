@@ -1,0 +1,9 @@
+torch==2.11.0
+transformers==5.5.0
+accelerate==1.13.0
+peft==0.18.1
+gradio==5.50.0
+pillow==11.3.0
+ms-swift==4.1.0
+qwen-vl-utils==0.0.14
+safetensors==0.7.0
