@@ -69,6 +69,15 @@ pip install -r requirements.txt
     modelscope download --model Qwen/Qwen3-VL-8B-Instruct --local_dir /root/autodl-tmp/models/Qwen/Qwen3-VL-8B-Instruct
     ```
 然后将 app.py 中的 BASE_MODEL_PATH 改为对应的本地路径（或保持 Qwen/Qwen3-VL-8B-Instruct 在线加载）。
+### 4. 训练以及推理
+- 训练
+    ```bash
+    train.sh
+    ```
+- 推理
+  ```bash
+  inference.sh
+  ```
 ### 4. 运行 Web 服务
 ```bash
 python app.py
