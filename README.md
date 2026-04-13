@@ -78,7 +78,7 @@ pip install -r requirements.txt
   ```bash
   inference.sh
   ```
-### 4. 运行 Web 服务
+### 5. 运行 Web 服务
 ```bash
 python app.py
 ```
