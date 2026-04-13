@@ -48,7 +48,7 @@ text
 
 ### 2. 安装依赖
 ```bash
-git clone https://github.com/你的用户名/qwen-aircraft-orientation.git
+git clone https://github.com/zhaoxiaotai/qwen-aircraft-orientation.git
 cd qwen-aircraft-orientation
 python3 -m venv qwen3_vl # 也可以用conda创建
 source qwen3_vl/bin/activate # Linux/macOS；Windows 使用 `qwen3_vl\Scripts\activate`
